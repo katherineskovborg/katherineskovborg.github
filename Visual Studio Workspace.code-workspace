@@ -1,10 +1,12 @@
 {
 	"folders": [
 		{
-			"path": "/Users/katherineskovborg/Downloads/empty-example"
+			"name": "katherineskovborg.github.io.",
+			"path": "."
 		},
 		{
-			"path": "."
+			"name": "empty-example",
+			"path": "/Users/katherineskovborg/Downloads/empty-example"
 		}
 	],
 	"settings": {}
