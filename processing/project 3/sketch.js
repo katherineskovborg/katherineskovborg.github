@@ -5,9 +5,9 @@ function setup() {
 }
 
 function draw() {
-  background(255);
-  from = color(255, 0, 0, 0.2 * 255);
-  to = color(0, 0, 255, 0.2 * 255);
+  background(0);
+  from = color(0, 255, 136, 0.2 * 255);
+  to = color(92, 107, 255,  0.2 * 255);
   c1 = lerpColor(from, to, 0.33);
   c2 = lerpColor(from, to, 0.66);
   for (let i = 0; i < 15; i++) {
@@ -27,9 +27,9 @@ function draw() {
     );
     fill(c2);
     quad(
+      random(320, 500), random(height),
       random(320, 580), random(height),
-      random(320, 580), random(height),
-      random(320, 580), random(height),
+      random(320, 500), random(height),
       random(320, 580), random(height)
     );
     fill(to);
@@ -40,5 +40,5 @@ function draw() {
       random(500, 760), random(height)
     );
   }
-  frameRate(5);
+  frameRate(4);
 }
