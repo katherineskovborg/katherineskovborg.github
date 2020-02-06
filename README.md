@@ -1,1 +1,1 @@
-katherineskovborg.github.io.
+katherineskovborg.github
